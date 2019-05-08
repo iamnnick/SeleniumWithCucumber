@@ -1,3 +1,4 @@
+@first
 Feature: Reset functionality on login page of Application 
 
 
