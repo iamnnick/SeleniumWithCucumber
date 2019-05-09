@@ -1,6 +1,6 @@
 Feature: Test Tagged Hooks
  
-@First 
+@First
 Scenario: This is First Scenario
  Given this is the first step
  When this is the second step
@@ -12,7 +12,7 @@ Scenario: This is Second Scenario
  When this is the second step
  Then this is the third step
  
-@Third 
+@Third
 Scenario: This is Third Scenario
  Given this is the first step
  When this is the second step
