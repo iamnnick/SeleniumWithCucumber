@@ -18,19 +18,19 @@ public class NewTestSteps {
 	       driver= new ChromeDriver();					
 	       driver.manage().window().maximize();			
 	       driver.get("http://www.demo.guru99.com/v4");							
-	    //throw new PendingException();
+	    throw new PendingException();
 	}
 
 	@When("^Enter the Username User(\\d+)and Password password(\\d+)$")
 	public void enter_the_Username_User_and_Password_password(String username, String password) throws Throwable {
 		 driver.findElement(By.name("uid")).sendKeys(username);					
 	       driver.findElement(By.name("password")).sendKeys(password);
-	    //throw new PendingException();
+	    throw new PendingException();
 	}
 
 	@Then("^Reset the credential	 by clicking reset button$")
 	public void reset_the_credential_by_clicking_reset_button() throws Throwable {
 		driver.findElement(By.name("btnReset")).click();
-	    //throw new PendingException();
+	    throw new PendingException();
 	}
 }
